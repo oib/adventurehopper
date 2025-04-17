@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Cars Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-area">
+            <!-- Left buttons -->
+            <div class="button-column">
+                <div class="pipe" data-pipe="1">
+                    <div class="square top" data-position="top"></div>
+                </div>
+                <div class="pipe" data-pipe="2">
+                    <div class="square top" data-position="top"></div>
+                </div>
+                <div class="pipe" data-pipe="3">
+                    <div class="square top" data-position="top"></div>
+                </div>
+            </div>
+
+            <!-- Roads -->
+            <div class="road-container">
+                <div class="road-pair">
+                    <div class="road" data-road="1"></div>
+                    <div class="road" data-road="2"></div>
+                </div>
+                <div class="road-pair">
+                    <div class="road" data-road="3"></div>
+                    <div class="road" data-road="4"></div>
+                </div>
+                <div class="road-pair">
+                    <div class="road" data-road="5"></div>
+                    <div class="road" data-road="6"></div>
+                </div>
+            </div>
+
+            <!-- Right buttons -->
+            <div class="button-column">
+                <div class="pipe" data-pipe="4">
+                    <div class="square top" data-position="top"></div>
+                </div>
+                <div class="pipe" data-pipe="5">
+                    <div class="square top" data-position="top"></div>
+                </div>
+                <div class="pipe" data-pipe="6">
+                    <div class="square top" data-position="top"></div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="score-container">
+                <div class="score" id="score">🧭 Adventures: 0</div>
+                <div class="timer"><span id="time">⏱️ 2:00</span></div>
+            </div>
+            <button id="start-game">Start Game</button>
+            <div class="collection" id="collection">No adventures yet! 🎒</div>
+        </div>
+    </div>
+    <script type="module" src="/static/config.js"></script>
+    <script type="module" src="/static/app.js"></script>
+</body>
+</html> 
