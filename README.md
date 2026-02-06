@@ -20,7 +20,7 @@ A web-based collection game inspired by the "2 Cars" concept. Control six square
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/oib/adventurehopper.git
 cd adventurehopper
 ```
 
