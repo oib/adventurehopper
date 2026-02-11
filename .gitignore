@@ -19,3 +19,29 @@ Thumbs.db
 # IDEs und Editoren
 .vscode/
 .idea/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Windsurf
+.windsurf/
+
+# Snapshots
+.snapshots/
+
+# Node modules (if using npm)
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Cache files
+.cache/
+*.cache
+
+# Temporary files
+*.temp
+*.tmp
