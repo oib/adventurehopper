@@ -345,6 +345,9 @@ class Game {
             const sparkle = document.createElement('span');
             sparkle.textContent = ' ✨';
             sparkle.style.opacity = '1';
+            sparkle.style.position = 'absolute';
+            sparkle.style.pointerEvents = 'none';
+            this.scoreElement.style.position = 'relative';
             this.scoreElement.appendChild(sparkle);
             
             // Fade out and remove sparkle
